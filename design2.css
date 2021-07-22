@@ -1,0 +1,202 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Acme', sans-serif;}
+		.main
+		{
+			display: grid;
+			grid-template-rows:5vh 95vh;
+			grid-template-columns:20% 80%;
+			/*border:1px solid black;*/
+		}
+		.top-header
+		{
+			background-color:red;
+			grid-column: 1/-1;
+		}
+		
+		.side-menu
+		{
+			background-color: green;
+			position: fixed;
+			height: 100%;
+		}
+		.navi
+		{
+			width:250px;
+			height: 600px;
+			/*border:1px solid white;*/
+			margin:10px;
+
+		}
+		.navi img
+		{
+			width:250px;
+			height: 180px;
+		}
+		#logo
+		{
+			width:250px;
+			height: 90px;
+		}
+		.navi table
+		{
+			width:240px;
+			height: 280px;
+			border:1px solid black;
+			border-collapse: collapse;
+			margin:5px;
+		}
+		.navi table th
+		{
+			border:1px solid black;
+			text-align: center;
+			font-size: 20px;
+			background-color: red;
+
+			
+		}
+		.navi table td
+		{
+			border:1px solid black;
+			text-align: center;
+			font-size: 18px;
+		}
+		.navi table td:hover
+		{
+			background-color: orange;
+		}
+		.navi table td a
+		{
+			text-decoration: none;
+			color: black;
+		}
+		.navi h2
+		{
+			text-align: center;
+		}
+		.content
+		{
+			background-color:white;
+		}
+		.profile
+		{
+			width:78.2%;
+			height: 95vh;
+			background-image: url('images/login3.png');
+			position: absolute;
+			left:270px;
+		}
+		.profile h1
+		{
+			text-align: center;
+		}
+		.profile-infos
+		{
+			width: 90%;
+			position: relative;
+			top:30%;
+			left: 51%;
+			transform: translate(-50%,-50%);
+			border:1px solid black;
+		}
+		.profile-infos span
+		{	
+			width: 100px;
+			font-size: 18px;
+			font-weight: bold;
+			display: inline-block;
+			margin: 40px;
+			
+
+
+		}
+		.profile-infos input
+		{
+			width: 200px;
+			display: inline;
+			border:none;
+			
+		}
+		.profile-infos button
+		{
+			width: 100px;
+			height: 30px;
+			position: relative;
+			left:50%;
+			transform: translate(-50%);	
+		}
+		#edit
+		{
+			position: absolute;
+			right: 10px;
+			margin:10px;
+			color: blue;
+			text-decoration: underline;
+			cursor: pointer;
+
+		}
+		.editdiv
+		{
+			width:102.5%;
+			height: 95vh;
+			display: none;
+			background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+			position: absolute;
+			top:0%;
+
+			
+
+		}
+		.edit-infos
+		{
+			width:50%;
+			height: 70vh;
+			background-image: url("images/login3.png");
+			position: relative;
+			top:50%;
+			left:50%;
+			transform: translate(-50%,-50%);
+			border-radius: 20px;
+
+		}
+		.edit-infos label
+		{
+			display: flex;
+			margin:5px;
+		}
+		.edit-infos input
+		{
+			width:250px;
+			height: 30px;
+			margin:10px;
+		}
+		.edit-infos input[type="text"]
+		{
+			cursor:no-drop;
+			cursor-color:red;
+		}
+		.edit-infos form
+		{
+			width:250px;
+			position: relative;
+			top:45%;
+			left:45%;
+			transform: translate(-50%,-50%);
+
+		}
+		.edit-infos p
+		{
+			position: absolute;
+			right:10px;
+			top: 10px;
+			cursor: pointer;
+		}
+		.edit-infos h2
+		{
+			text-align: center;
+		}
+
+		.footer
+		{
+			background-color:pink;
+			grid-column: 1/-1;
+		}
+		
